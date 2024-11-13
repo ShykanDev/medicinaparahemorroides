@@ -74,7 +74,7 @@
             </section>
             <article class="">
                 <div class="flex justify-center w-full">
-                    <img class="w-10" src="../assets/img/ssl.png" alt="">
+                    <!-- <img class="w-10" src="../assets/img/ssl.png" alt=""> -->
                 </div>
                 <!-- page about -->
                  <p class="text-xl font-bold text-center text-white">Todos los derechos reservados &copy; {{ new Date().getFullYear() }}</p>
