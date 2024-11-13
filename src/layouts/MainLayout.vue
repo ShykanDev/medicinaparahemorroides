@@ -40,7 +40,7 @@
         </main>
         <footer class="relative flex flex-col justify-center w-full p-1 bg-opacity-85 bg-cyan-600 min-h-16 font-sour-gummy">
             <h2 class="text-2xl text-center text-white lg:text-5xl font-sour-gummy">Contacto</h2>
-                <img class="absolute top-0 w-9 right-3" src="../assets/img/ssl.png" alt="">
+                <img class="absolute top-0 w-9 right-3" src="https://shykandev.github.io/medicinaparadiabetes/assets/ssl-Cjd7i8VT.png" alt="">
             <div class="flex flex-col w-full">
                 <div class="flex items-center justify-center gap-2">
                     <!--  -->
