@@ -1,6 +1,6 @@
 <template>
     <div class="selection:bg-white selection:text-cyan-700">
-        <header class="fixed left-0 right-0 z-50 flex items-center w-full text-xl lg:justify-evenly w-fullle md:flex-col bg-cyan-600 min-h-20">
+        <header class="fixed left-0 right-0 z-50 flex items-center w-full text-xl lg:justify-evenly w-fullle md:flex-col bg-sky-800 min-h-20">
                 <div class="flex flex-wrap items-center justify-center w-full gap-3 font-medium text-white lg:justify-evenly font-sour-gummy lg:text-3xl">
                     <RouterLink :class="{'italic animate-rotate-y': route.name === 'home'}" :to="{ name: 'home' }">Inicio</RouterLink>
                     <RouterLink :class="{'italic animate-rotate-y ': route.name === 'beneficts'}" :to="{ name: 'beneficts' }">Beneficios</RouterLink>
@@ -38,7 +38,7 @@
         <main class="pt-20">
             <slot name="main"/>
         </main>
-        <footer class="relative flex flex-col justify-center w-full p-1 bg-opacity-85 bg-cyan-600 min-h-16 font-sour-gummy">
+        <footer class="relative flex flex-col justify-center w-full p-1 bg-opacity-85 bg-sky-800 min-h-16 font-sour-gummy">
             <h2 class="text-2xl text-center text-white lg:text-5xl font-sour-gummy">Contacto</h2>
                 <img class="absolute top-0 w-9 right-3" src="https://shykandev.github.io/medicinaparadiabetes/assets/ssl-Cjd7i8VT.png" alt="">
             <div class="flex flex-col w-full">

@@ -2,21 +2,24 @@
     <div class="">
         <MainLayout>
             <template #main>
-                <article class="w-full overflow-hidden lg:flex lg:items-center">
+                <article class="w-full overflow-hidden lg:flex lg:items-center ">
             <div
-              class="flex flex-col items-center pt-2 bg-cyan-700 lg:items-center lg:flex lg:justify-around lg:w-1/3 lg:w lg:h-screen rounded-bl-md rounded-br-md lg:py-4 ">
-              <h2 class="hidden text-3xl font-extrabold text-center text-white font-poppins animate-fade-down lg:block">
+              class="flex flex-col items-center pt-2 lg:items-center lg:flex lg:justify-around lg:w-1/3 lg:w lg:h-screen rounded-bl-md rounded-br-md lg:py-11 ">
+              <h2 class="hidden text-3xl font-extrabold text-center text-cyan-600 font-poppins animate-fade-down lg:block">
                 Alivio natural con CIDNI para la gastritis </h2>
               <h1 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-down">
-                <span class="text-white ">Tu escudo natural contra el reflujo</span>
+                <span class="text-cyan-600 ">Su escudo natural contra el reflujo</span>
+              </h1>
+              <h1 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-down">
+                <span class="text-emerald-500 ">Medicina ayurvédica con origen en la India</span>
               </h1>
               <a href="#cidni"
-                class="p-1 my-3 font-bold bg-white rounded-md lg:rounded-lg lg:text-xl lg:p-2 text-cyan-600 font-poppins animate-bounce">Conoce
+                class="p-1 my-3 font-bold rounded-md bg-cyantext-cyan-600 lg:rounded-lg lg:text-xl lg:p-2 text-cyan-600 font-poppins animate-bounce">Conozca
                 más</a>
             </div>
             <img src="../assets/mainImg.jpg" class="lg:w-2/3 animate-fade-up lg:h-screen" alt="">
           </article>
-                <section  id="cidni" class="space-y-20">
+                <section  id="cidni" class="space-y-20 overflow-hidden">
                     <CardInfoSm class="" img-center="https://plus.unsplash.com/premium_photo-1693266635481-37de41003239?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGVyYnN8ZW58MHx8MHx8fDA%3D" :title="info1.title" :description="info1.content" :description2="info1.content2"/>
                     <CardInfoSm data-aos="fade-right" class="" img-center="https://plus.unsplash.com/premium_photo-1722658473477-0c8ab1b79acf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXN0b21hZ298ZW58MHx8MHx8fDA%3D" :title="info2.title" :description="info2.content" :description2="info2.content2"/>
                     <CardInfoSm data-aos="fade-left" class="" img-center="https://plus.unsplash.com/premium_photo-1723108858066-66b1bd834675?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fGRpZ2VzdGlvbnxlbnwwfHwwfHx8MA%3D%3D" :title="info3.title" :description="info3.content" :description2="info3.content2"/>
@@ -43,7 +46,7 @@
                 <div class="w-full h-[1px] my-4 bg-cyan-800" />
 
                         <!-- Ads Section -->
-        <h3 class="mt-6 text-2xl font-bold text-center text-rose-900 font-poppins">Te puede interesar</h3>
+        <h3 class="mt-6 text-2xl font-bold text-center text-rose-900 font-poppins">Le puede interesar</h3>
         <section  class="flex justify-center w-full my-6 space-x-4"> <!-- ads section -->
               <div
                 class="relative flex items-center justify-center w-1/2 p-4 border-2 rounded-lg shadow-md border-slate-400 bg-slate-100">
@@ -56,11 +59,11 @@
                     <p class="text-xs font-bold text-center text-white font-poppins md:text-3xl">Jarabe o Cápsulas tu decides</p>
                     <p class="text-sm font-bold text-center text-white font-poppins md:text-3xl">100% Natural</p>
                   </div>
-                  <img class="w-full h-full bg-contain rounded-md" src="https://shykandev.github.io/medicinaparahigado/assets/livi-DGbdjO9P.jpg" alt="">
+                  <img class="w-full h-full bg-contain rounded-md" src="https://shykandev.github.io/medicinaparahigado/assets/mainHome-BjxRmTRc.jpg" alt="">
                   <p class="absolute text-xs font-bold text-center text-white bg-red-600 top-1 font-poppins md:text-3xl">
                     ¿Problemas en el Hígado?</p>
                   <p class="absolute text-xs font-bold text-center text-white bottom-1 font-poppins md:text-3xl">
-                    Conoce Livad</p>
+                    Conozca Livad</p>
                 </a>
               </div>
 
@@ -74,13 +77,13 @@
                     class="absolute flex flex-col items-center w-full h-full transition-opacity duration-300 ease-out bg-black opacity-0 hover:opacity-70 justify-evenly">
                     <p class="text-sm font-bold text-center text-white font-poppins md:text-3xl">100% Natural</p>
                     <!-- <p class="text-sm font-bold text-center text-white font-poppins md:text-3xl">Tu </p> -->
-                    <p class="hidden text-sm font-bold text-center text-white font-poppins md:text-3xl md:block">Esta es tu solución</p>
+                    <p class="hidden text-sm font-bold text-center text-white font-poppins md:text-3xl md:block">Esta es su solución</p>
                   </div>
-                  <img class="w-full h-full bg-contain rounded-md" src="https://shykandev.github.io/medicinaparadiabetes/assets/glufacMain-DEUvvQcL.jpg" alt="">
+                  <img class="w-full h-full bg-contain rounded-md" src="https://shykandev.github.io/medicinaparadiabetes/assets/mainHome-EGZr2Qar.jpg" alt="">
                   <p class="absolute top-0 text-xs font-bold text-center text-white bg-yellow-600 font-poppins md:text-3xl">¿Tienes Diabetes?</p>
                   <p
                     class="absolute px-3 text-xs font-bold text-center text-white md:px-0 bottom-3 font-poppins md:text-3xl">
-                    Te recomendamos GLUFAC</p>
+                    Le recomendamos GLUFAC</p>
                 </a>
               </div>
             </section>

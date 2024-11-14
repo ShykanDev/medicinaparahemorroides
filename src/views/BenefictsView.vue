@@ -2,7 +2,7 @@
     <div class="">
         <MainLayout>
             <template #main>
-                    <h1 class="text-3xl font-extrabold text-center text-white md:py-7 bg-cyan-600 font-poppins">Conoce los beneficios que CIDNI te ofrece para la gastritis</h1>
+                    <h1 class="text-3xl font-extrabold text-center text-white md:py-7 bg-cyan-600 font-poppins">Conozca los BENEFICIOS que CIDNI le ofrece para la GASTRITIS</h1>
                 <section class="flex flex-wrap justify-around w-full gap-4 p-3">
                     <BenefictCard img-src="https://storage.googleapis.com/a1aa/image/NTSNav0hSlq4NFRo5XUjKlMPUVLCG1ehDBF3eFkDkFR3hpwTA.jpg" :title="benefit1.title" :small-description="benefit1.smallIntro" :description="benefit1.description"/>
                     <BenefictCard img-src="https://images.pexels.com/photos/2035066/pexels-photo-2035066.jpeg?auto=compress&cs=tinysrgb&w=600" :title="benefit2.title" :small-description="benefit2.smallIntro" :description="benefit2.description"/>
