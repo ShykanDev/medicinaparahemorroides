@@ -3,6 +3,39 @@
         <MainLayout >
             <template #main>
                 <h1 class="text-3xl font-extrabold text-center text-white md:py-7 bg-cyan-600 font-poppins">Conoce los ingredientes naturales de CIDNI</h1>
+                <div class="grid grid-cols-3">
+                <img class="animate-flip-up" src="../assets/front.png" alt="">
+                <img class="animate-flip-up" src="../assets/syrup.png" alt="">
+                <img class="animate-flip-up" src="../assets/frontRight.png" alt="">
+              </div>
+                <section class="flex flex-wrap justify-between gap-5 p-4 font-poppins">
+  <div class="flex-1 sm:flex-1 md:flex-1 lg:w-1/2">
+    <h3 class="mb-4 text-xl font-semibold">Características del Producto</h3>
+    <ul class="p-0 list-none">
+      <li><strong>Cantidad de Cápsulas:</strong> 60 cápsulas por envase / Botella 200ml</li>
+      <li><strong>Tamaño de la Porción:</strong> 1 cápsula/15ml</li>
+      <li><strong>Modo de Uso:</strong> Tomar 1 cápsula de 1 a 2 veces al día, preferiblemente con comida o según lo indique un profesional de la salud.</li>
+      <li><strong>Almacenamiento:</strong> Mantener en un lugar fresco y seco, lejos de la luz solar directa.</li>
+      <li><strong>Advertencias:</strong> Consultar a un profesional de la salud si está embarazada o en período de lactancia. Mantener fuera del alcance de los niños.</li>
+      <li><strong>Categoría:</strong> Suplemento dietético</li>
+    </ul>
+  </div>
+  <div class="flex-1 sm:flex-1 md:flex-1 lg:w-1/2">
+    <h3 class="mb-4 text-xl font-semibold">Resumen de Ingredientes</h3>
+    <ul class="p-0 list-none">
+  <li><span class="font-bold">Amalaki 🌿</span> Rico en vitamina C, reduce la acidez estomacal y favorece la regeneración de la mucosa gástrica.</li>
+  <li><span class="font-bold">Guduchi 🌱</span> Alivia la inflamación gástrica y apoya el equilibrio del sistema digestivo.</li>
+  <li><span class="font-bold">Bhringraj 🍃</span> Conocido por sus propiedades protectoras del hígado, también ayuda a reducir los síntomas de indigestión.</li>
+  <li><span class="font-bold">Chandan 🌳</span> Calma el sistema digestivo y reduce la sensación de ardor estomacal.</li>
+  <li><span class="font-bold">Karpur Kachari 🌾</span> Mejora la digestión y alivia la hinchazón abdominal asociada con la gastritis.</li>
+  <li><span class="font-bold">Katuki 🌱</span> Promueve la desintoxicación del hígado y regula la producción de ácidos estomacales.</li>
+  <li><span class="font-bold">Vasa 🍃</span> Favorece la salud digestiva y ayuda a proteger el revestimiento del estómago.</li>
+  <li><span class="font-bold">Yasthimadhu 🌿</span> Alivia el dolor estomacal y protege contra úlceras al fortalecer la mucosa gástrica.</li>
+  <li><span class="font-bold">Probiótico 🦠</span> Restaura el equilibrio de la flora intestinal, mejorando la digestión y reduciendo la inflamación gástrica.</li>
+</ul>
+
+  </div>
+</section>
             <section class="flex flex-wrap justify-around gap-4 p-4 animate-fade-up">
                 <IngredientCard v-for="ingredient in ingredients" :key="ingredient.title" :title="ingredient.title" :smallIntro="ingredient.shortResume" :description="ingredient.longResume" :tags="ingredient.listTitles" :listTitles="ingredient.listTitles" :listContent="ingredient.listContent" :imgSrc="ingredient.imgSrc" />
             </section>
