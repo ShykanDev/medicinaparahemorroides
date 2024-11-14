@@ -2,7 +2,7 @@
     <div class="">
         <MainLayout >
             <template #main>
-                <h1 class="text-3xl font-extrabold text-center text-white md:py-7 bg-cyan-600 font-poppins">Conoce los ingredientes naturales de CIDNI</h1>
+                <h1 class="text-3xl font-extrabold text-center text-white md:py-7 bg-cyan-600 font-poppins">Conozca los ingredientes naturales de CIDNI</h1>
                 <div class="grid grid-cols-3">
                 <img class="animate-flip-up" src="../assets/front.png" alt="">
                 <img class="animate-flip-up" src="../assets/syrup.png" alt="">
