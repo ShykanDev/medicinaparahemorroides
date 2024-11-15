@@ -22,7 +22,7 @@
                     <RouterLink :class="{ 'italic animate-jump-in': route.name === 'faqs' }" :to="{ name: 'faqs' }">
                         Preguntas
                     </RouterLink>
-                    <a href="https://www.prasadam.mx/" target="_blank" class="hover:text-orange-300">
+                    <a href="https://www.prasadam.mx/" target="_blank" class="hidden hover:text-orange-300 md:block">
                         Prasadam
                     </a>
                 </div>
@@ -30,7 +30,7 @@
 
             <!-- Información de contacto -->
             <div
-                class="flex flex-col gap-4 px-4 py-3 text-xs lg:flex-row lg:items-center lg:justify-evenly lg:text-base bg-emerald-800">
+                class="flex-col hidden gap-4 px-4 py-3 text-xs lg:flex lg:flex-row lg:items-center lg:justify-evenly lg:text-base bg-emerald-800">
                 <!-- Dirección -->
                 <div class="flex items-center gap-2">
                     <v-icon name="md-locationon" class="text-emerald-300" scale="1.5" />
