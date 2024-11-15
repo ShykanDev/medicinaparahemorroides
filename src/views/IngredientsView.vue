@@ -2,20 +2,20 @@
     <div class="">
         <MainLayout >
             <template #main>
-              <h1 class="py-8 text-4xl font-bold text-center rounded-lg shadow-lg text-cyan-900 bg-gradient-to-r from-cyan-100 via-white to-cyan-100 font-poppins">
-  Conozca los ingredientes <span class="text-cyan-600">NATURALES</span> que <span class="underline decoration-cyan-600">CIDNI</span> le ofrece para la <span class="text-cyan-600">GASTRITIS</span>
+              <h1 class="py-8 text-4xl font-bold text-center rounded-lg shadow-lg text-cyan-900 bg-gradient-to-r from-emerald-100 via-white to-emerald-100 font-poppins">
+  Conozca los ingredientes <span class="text-cyan-600">NATURALES</span> que <span class="underline decoration-cyan-600">PILOGUARD</span> le ofrece para las <span class="text-cyan-600">HEMORROIDES</span>
 </h1>
                 <div class="grid grid-cols-3">
-                <img class="animate-flip-up" src="../assets/front.png" alt="">
-                <img class="animate-flip-up" src="../assets/syrup.png" alt="">
-                <img class="animate-flip-up" src="../assets/frontRight.png" alt="">
+                <img class="animate-flip-up" src="https://i.ibb.co/j53jSP7/right-Bottle.png" alt="">
+                <img class="animate-flip-up" src="https://i.ibb.co/p369gXp/image-1-removebg-preview.png" alt="">
+                <img class="animate-flip-up" src="https://i.ibb.co/GF34xB8/image-2-removebg-preview.png" alt="">
               </div>
                 <section class="flex flex-wrap justify-between gap-5 p-4 font-poppins">
   <div class="flex-1 sm:flex-1 md:flex-1 lg:w-1/2">
     <h3 class="mb-4 text-xl font-semibold">Características del Producto</h3>
     <ul class="p-0 list-none">
-      <li><strong>Cantidad de Cápsulas:</strong> 60 cápsulas por envase / Botella 200ml</li>
-      <li><strong>Tamaño de la Porción:</strong> 1 cápsula/15ml</li>
+      <li><strong>Cantidad de Cápsulas:</strong> 60 cápsulas por envase</li>
+      <li><strong>Tamaño de la Porción:</strong> 1 cápsula</li>
       <li><strong>Modo de Uso:</strong> Tomar 1 cápsula de 1 a 2 veces al día, preferiblemente con comida o según lo indique un profesional de la salud.</li>
       <li><strong>Almacenamiento:</strong> Mantener en un lugar fresco y seco, lejos de la luz solar directa.</li>
       <li><strong>Advertencias:</strong> Consultar a un profesional de la salud si está embarazada o en período de lactancia. Mantener fuera del alcance de los niños.</li>

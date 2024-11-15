@@ -5,7 +5,6 @@
             <nav class="flex items-center justify-between px-4 lg:px-8">
                 <!-- Logo -->
                 <img src="https://medicinaparaansiedad.com/img/logo.png" alt="Logo" class="w-12 lg:w-14" />
-
                 <!-- Links de navegación -->
                 <div class="flex gap-4 text-sm font-medium lg:text-lg lg:gap-6 font-sour-gummy">
                     <RouterLink :class="{ 'italic animate-jump-in': route.name === 'home' }" :to="{ name: 'home' }">
@@ -63,7 +62,7 @@
             </div>
         </header>
 
-        <main class="pt-[107px]">
+        <main class="lg:pt-[107px] pt-9">
             <slot name="main" />
         </main>
         <footer class="relative flex flex-col items-center gap-6 p-6 text-white bg-emerald-700 font-sour-gummy lg:p-10">
@@ -85,7 +84,7 @@
                 </div>
 
                 <!-- Google Maps Embed -->
-                <iframe class="w-full rounded-md shadow-md lg:w-3/4"
+                <iframe class="w-full rounded-md shadow-md lg:w-4/4"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.5395970522604!2d-99.1760704!3d19.4322888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8b32758939b%3A0xf34fbd07bc47d6dd!2sGutenberg%20128%2C%20Anzures%2C%20Miguel%20Hidalgo%2C%2011590%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1sen!2smx!4v1730328617197!5m2!1sen!2smx"
                     allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade" height="250"
                     style="border: 0;"></iframe>

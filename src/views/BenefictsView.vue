@@ -3,81 +3,81 @@
         <MainLayout>
             <template #main>
                     <!-- <h1 class="text-3xl font-extrabold text-center text-white md:py-7 bg-cyan-600 font-poppins">Conozca los BENEFICIOS que CIDNI le ofrece para la GASTRITIS</h1> -->
-                    <h1 class="py-8 text-4xl font-bold text-center rounded-lg shadow-lg text-cyan-900 bg-gradient-to-r from-cyan-100 via-white to-cyan-100 font-poppins">
-  Conozca los <span class="text-cyan-600">BENEFICIOS</span> que <span class="underline decoration-cyan-600">CIDNI</span> le ofrece para la <span class="text-cyan-600">GASTRITIS</span>
+                    <h1 class="py-8 text-4xl font-bold text-center shadow-lg text-cyan-900 bg-gradient-to-r from-emerald-100 via-white to-emerald-100 font-poppins">
+  Conozca los <span class="text-cyan-600">BENEFICIOS</span> que <span class="underline decoration-cyan-600">PILOGUARD</span> le ofrece para las <span class="text-cyan-600">HEMORROIDES</span>
 </h1>
 
                 <section class="flex flex-wrap justify-around w-full gap-4 p-3">
-                    <BenefictCard data-aos="flip-right" 
-                    img-src="https://storage.googleapis.com/a1aa/image/izZVsrv5vpbPHF2VBvpoAGHYDIyniTAGSGsyWTXd7abLsR8E.jpg"
+                    <BenefictCard  
+                    img-src="https://storage.googleapis.com/a1aa/image/jqQcDPwo066MDJ4xV90DVE0oxWTf1cblQvxSWV5dULkLpr4JA.jpg"
                      :title="benefit1.title" :small-description="benefit1.smallIntro" :description="benefit1.description"/>
-                    <BenefictCard data-aos="flip-right" 
-                    img-src="https://storage.googleapis.com/a1aa/image/ZutGUJeAt5RaGKlWKuWAJK45vE5fpYIe0iuICHT3QB1QjNinA.jpg"
+                    <BenefictCard  
+                    img-src="https://storage.googleapis.com/a1aa/image/KKbtKRUGJ94AMZ7BJtuvYUhfvzh4fMRowiPmrmRr8GxoTXxTA.jpg"
                      :title="benefit2.title" :small-description="benefit2.smallIntro" :description="benefit2.description"/>
-                    <BenefictCard data-aos="flip-right" 
-                    img-src="https://storage.googleapis.com/a1aa/image/cZ7HueVz54T7FaXXZgeeznmR9ISVSv4N1WiOeyodt8YDLbEPB.jpg"
+                    <BenefictCard  
+                    img-src="https://storage.googleapis.com/a1aa/image/sI2ULBpxmfU1LKMfiAfAYPgArslP0oVzjc8EavaVtb6ePdFPB.jpg"
                      :title="benefit3.title" :small-description="benefit3.smallIntro" :description="benefit3.description"/>
-                    <BenefictCard data-aos="flip-left" 
-                    img-src="https://storage.googleapis.com/a1aa/image/ofqqHmJCe8nZz0RUEtZAmFJNHguF6n4Q13xP4z2n2DxL1GxTA.jpg"
+                    <BenefictCard
+                    img-src="https://storage.googleapis.com/a1aa/image/1DfVc0gGbYw8Uq95tShnX82pIHKBNW7snIMJabWhKFNeUXxTA.jpg"
                      :title="benefit4.title" :small-description="benefit4.smallIntro" :description="benefit4.description"/>
-                    <BenefictCard data-aos="flip-left" 
+                    <BenefictCard
                     img-src="https://storage.googleapis.com/a1aa/image/k7nWVmluLlpFHt7D6F2BoE51dpSO6CfeDJEZCn9CF4qerNinA.jpg"
                      :title="benefit5.title" :small-description="benefit5.smallIntro" :description="benefit5.description"/>
-                    <BenefictCard data-aos="flip-left" 
-                    img-src="https://storage.googleapis.com/a1aa/image/S4fVwnh2TA2MUqUjkRhzvgeW1fQ1hvfzXaKltVipNfqDB3IeE.jpg"
+                    <BenefictCard
+                    img-src="https://storage.googleapis.com/a1aa/image/76iPlmGsLrLzKVdAMfAdXE75FUiJ5qi36USTwdfHrUSkVXxTA.jpg"
                      :title="benefit6.title" :small-description="benefit6.smallIntro" :description="benefit6.description"/>
-                    <BenefictCard data-aos="flip-right" 
+                    <BenefictCard  
                     img-src="https://storage.googleapis.com/a1aa/image/eHIz9ciUjExWJCglvwarezuJcFr2fsubuQl6lI8Ladk1xNinA.jpg"
                      :title="benefit7.title" :small-description="benefit7.smallIntro" :description="benefit7.description"/>
-                    <BenefictCard data-aos="flip-right" 
+                    <BenefictCard  
                     img-src="https://storage.googleapis.com/a1aa/image/0Gb287aJuZIiOpiqFpRZADPHNCiMrRAS9CazrxkuEah4uR8E.jpg"
                      :title="benefit8.title" :small-description="benefit8.smallIntro" :description="benefit8.description"/>
-                    <BenefictCard data-aos="flip-right" 
+                    <BenefictCard  
                     img-src="https://storage.googleapis.com/a1aa/image/r9zxYPHLOUKUFpcfmf59573TiyMVwAfOYLdNZUATT11X5NinA.jpg"
                      :title="benefit9.title" :small-description="benefit9.smallIntro" :description="benefit9.description"/>
-                    <BenefictCard data-aos="flip-left" 
+                    <BenefictCard
                     img-src="https://storage.googleapis.com/a1aa/image/ZGHkRkJ9wB5eYSLKDsJU814r0tqrht2c1eMPkWMNf1UY6NinA.jpg"
                      :title="benefit10.title" :small-description="benefit10.smallIntro" :description="benefit10.description"/>
-                    <BenefictCard data-aos="flip-left" 
+                    <BenefictCard
                     img-src="https://storage.googleapis.com/a1aa/image/DxttxgcPeiXySaiVyR5GbdJvPAsfuuigPI9eg95TQivRfbEPB.jpg"
                      :title="benefit11.title" :small-description="benefit11.smallIntro" :description="benefit11.description"/>
-                    <BenefictCard data-aos="flip-left" 
+                    <BenefictCard
                     img-src="https://storage.googleapis.com/a1aa/image/wZ5i8eeNC6l4bUcUvVfRhffef6Fnf8e0dGU2MDyF7P0ZnAOinA.jpg"
                      :title="benefit12.title" :small-description="benefit12.smallIntro" :description="benefit12.description"/>
-                    <BenefictCard data-aos="flip-right" 
+                    <BenefictCard  
                     img-src="https://storage.googleapis.com/a1aa/image/0hXG86lmLEp4JNlUomKx9i2CswJw4ufEJ1fGuzghK7TtAHxTA.jpg"
                      :title="benefit13.title" :small-description="benefit13.smallIntro" :description="benefit13.description"/>
-                    <BenefictCard data-aos="flip-right" 
+                    <BenefictCard  
                     img-src="https://storage.googleapis.com/a1aa/image/F69Dqql7sipuHNBHWRPcFqvu2FjjI2nd3EfddomkOyMvgj4JA.jpg"
                      :title="benefit14.title" :small-description="benefit14.smallIntro" :description="benefit14.description"/>
-                    <BenefictCard data-aos="flip-right" 
+                    <BenefictCard  
                     img-src="https://storage.googleapis.com/a1aa/image/xQ44DiHaHdp3H9DbvWhjfK1oCJZzShGd6l0z7L6EeEEcCHxTA.jpg"
                      :title="benefit16.title" :small-description="benefit16.smallIntro" :description="benefit16.description"/>
-                    <BenefictCard data-aos="flip-left" 
+                    <BenefictCard
                     img-src="https://storage.googleapis.com/a1aa/image/xKeHPmrxGb1MPq1fgfLh7Q1A3ktthx1NCF3isMGmVTfbNcEPB.jpg"
                      :title="benefit17.title" :small-description="benefit17.smallIntro" :description="benefit17.description"/>
-                    <BenefictCard data-aos="flip-left" 
+                    <BenefictCard
                     img-src="https://storage.googleapis.com/a1aa/image/KB5IceGWsfpSZkIWqe0y2IUr0e6eT6gDkDhMqpsb2b1Vi4IeE.jpg"
                      :title="benefit18.title" :small-description="benefit18.smallIntro" :description="benefit18.description"/>
-                    <BenefictCard data-aos="flip-left" 
+                    <BenefictCard
                     img-src="https://storage.googleapis.com/a1aa/image/8f0VefzljWHr4JPpXQjscRSfz1rN8c3TM2kR8RESV9jxvcEPB.jpg"
                      :title="benefit19.title" :small-description="benefit19.smallIntro" :description="benefit19.description"/>
-                    <BenefictCard data-aos="flip-right" 
+                    <BenefictCard  
                     img-src="https://storage.googleapis.com/a1aa/image/IIFLWY5jXBJRJx0jduZwVFpSiwteYeFlMEKXNjWMRFONMHxTA.jpg"
                      :title="benefit20.title" :small-description="benefit20.smallIntro" :description="benefit20.description"/>
-                    <BenefictCard data-aos="flip-right" 
+                    <BenefictCard  
                     img-src="https://storage.googleapis.com/a1aa/image/mt3qYefE1eMN4J2Fnzoq1r48hxqtjvljyX0EoxqfAsSSycEPB.jpg"
                      :title="benefit21.title" :small-description="benefit21.smallIntro" :description="benefit21.description"/>
-                    <BenefictCard data-aos="flip-right" 
+                    <BenefictCard  
                     img-src="https://storage.googleapis.com/a1aa/image/6l7FfF3KyzzoUSnMEakAjoMG0RENV8acZgDkKVATBEctmj4JA.jpg"
                      :title="benefit22.title" :small-description="benefit22.smallIntro" :description="benefit22.description"/>
-                    <BenefictCard data-aos="flip-left" 
+                    <BenefictCard
                     img-src="https://storage.googleapis.com/a1aa/image/dLWCaZWYCyLrIVGqFE0rumdEXL0HamBJKzYZHxIYeAqMnj4JA.jpg"
                      :title="benefit23.title" :small-description="benefit23.smallIntro" :description="benefit23.description"/>
-                    <BenefictCard data-aos="flip-left" 
+                    <BenefictCard
                     img-src="https://storage.googleapis.com/a1aa/image/kFwlfvpaF22mMq2J8oLa0qdkoPHC0LhV7N66AuPgSyTdnj4JA.jpg"
                      :title="benefit24.title" :small-description="benefit24.smallIntro" :description="benefit24.description"/>
-                    <BenefictCard data-aos="flip-left" 
+                    <BenefictCard
                     img-src="https://storage.googleapis.com/a1aa/image/Mq8EBqMLfYTlACWeVugeJzNQNMHSBadPlqTXf7GIyVb6e5IeE.jpg"
                      :title="benefit25.title" :small-description="benefit25.smallIntro" :description="benefit25.description"/>
                     
