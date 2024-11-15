@@ -1,23 +1,24 @@
 <template>
-    <div class="relative overflow-hidden transition-all duration-500 transform rounded-lg shadow-lg w-80 hover:min-h-[600px] min-h-96 ">
-   <img alt="A placeholder image of a scenic landscape with mountains and a lake" class="absolute inset-0 object-cover w-full h-full" height="400" :src="imgSrc" width="320"/>
-   <div class="absolute inset-0 flex flex-col justify-start p-4 bg-black bg-opacity-50">
-    <h2 class="mb-2 text-2xl font-bold text-white">
-     {{ title }}
-    </h2>
-    <h4 class="mb-2 text-lg text-white">
-     {{ smallDescription }}
-    </h4>
-    <div class="relative group">
-     <button class="px-4 py-2 text-white transition-opacity duration-500 bg-blue-500 rounded group-hover:opacity-0">
-      Más Información
-     </button>
-     <p class="absolute top-0 left-0 mt-12 text-white transition-opacity duration-500 opacity-0 group-hover:opacity-100">{{ description }}</p>
+    <div class="max-w-sm overflow-hidden bg-white rounded-lg shadow-lg">
+      <!-- Imagen -->
+      <img :src="imgSrc" alt="Card Image" class="object-cover w-full h-48">
+  
+      <!-- Contenido -->
+      <div class="p-6">
+        <!-- Título -->
+        <h2 class="mb-2 text-2xl font-semibold text-emerald-800">{{ title }}</h2>
+        
+        <!-- Pequeña Descripción -->
+        <p class="mb-4 text-sm italic text-emerald-900 font font-poppins">{{ smallDescription }}</p>
+        
+        <!-- Descripción -->
+        <p class="text-base text-slate-700 font-poppins">
+          {{ description }}
+        </p>
+      </div>
     </div>
-   </div>
-  </div>
-
-</template>
+  </template>
+  
 
 <script lang="ts" setup>
 const props = defineProps({

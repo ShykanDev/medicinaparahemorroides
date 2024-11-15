@@ -6,7 +6,7 @@
                 <h3 class="mb-3 text-xl font-semibold text-gray-900">{{ title }}</h3>
                 <p class="mb-4 text-gray-700">{{description}}</p>
                 <a :href="hrefLink"
-                    target="_blank" rel="noopener noreferrer" class="font-medium hover:border hover:border-cyan-500 text-cyan-600 hover:text-cyan-400 hover:p-2 rounded-xl">Leer
+                    target="_blank" rel="noopener noreferrer" class="font-medium hover:border hover:border-emerald-500 text-emerald-600 hover:text-emerald-400 hover:p-2 rounded-xl">Leer
                     más &rarr;</a>
             </div>
         </div>
