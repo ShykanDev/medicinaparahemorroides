@@ -27,7 +27,7 @@
           </div>
           <img src="https://i.ibb.co/GWcmGDx/main-Piloguard.jpg" class="lg:w-2/3 animate-fade-up lg:h-screen" alt="Producto CIDNI">
         </article> -->
-        <article class="w-full overflow-hidden lg:flex lg:items-center lg:h-[75%]">
+        <article class="w-full overflow-hidden lg:flex lg:items-center ">
   <!-- Contenedor izquierdo -->
   <div class="flex flex-col items-center px-8 py-16 rounded-tl-lg rounded-br-lg shadow-xl lg:items-start lg:w-1/3 lg:h-screen lg:px-16 bg-gradient-to-r from-emerald-100 to-emerald-50">
     <h2 class="mb-6 text-4xl font-extrabold leading-tight text-center lg:text-left text-emerald-700 font-poppins animate-fade-down">
