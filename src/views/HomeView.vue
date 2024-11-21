@@ -2,7 +2,7 @@
   <div class="">
     <MainLayout>
       <template #main>
-        <article class="w-full overflow-hidden lg:flex lg:items-center">
+        <!-- <article class="w-full overflow-hidden lg:flex lg:items-center">
           <div
             class="flex flex-col items-center pt-2 lg:items-center lg:flex lg:justify-around lg:w-1/3 lg:w lg:h-screen rounded-bl-md rounded-br-md lg:py-12">
             <h2
@@ -25,10 +25,39 @@
               class="p-1 my-3 font-bold text-white rounded-md bg-emerald bg-emerald-600 lg:rounded-lg lg:text-xl lg:p-2 font-poppins animate-bounce">Descubra
               Más</a>
           </div>
-          <img src="../assets/imgMain.jpg" class="lg:w-2/3 animate-fade-up lg:h-screen" alt="Producto CIDNI">
-        </article>
+          <img src="https://i.ibb.co/GWcmGDx/main-Piloguard.jpg" class="lg:w-2/3 animate-fade-up lg:h-screen" alt="Producto CIDNI">
+        </article> -->
+        <article class="w-full overflow-hidden lg:flex lg:items-center lg:h-[75%]">
+  <!-- Contenedor izquierdo -->
+  <div class="flex flex-col items-center px-8 py-16 rounded-tl-lg rounded-br-lg shadow-xl lg:items-start lg:w-1/3 lg:h-screen lg:px-16 bg-gradient-to-r from-emerald-100 to-emerald-50">
+    <h2 class="mb-6 text-4xl font-extrabold leading-tight text-center lg:text-left text-emerald-700 font-poppins animate-fade-down">
+      PILOGUARD para el Alivio de las
+      <strong class="px-3 py-1 text-white rounded-md bg-emerald-700">
+        HEMORROIDES
+      </strong>
+    </h2>
 
-        <section id="piloguard" class="space-y-20 overflow-hidden lg:mt-5">
+    <div class="flex flex-col items-center mb-8 lg:flex-row lg:mb-16">
+  <h3 class="mb-4 text-xl font-semibold text-gray-800 lg:text-2xl font-varela lg:text-left lg:mr-8 lg:mb-0">
+    Medicina ayurvédica con origen milenario en la India.
+  </h3>
+  <img class="object-cover rounded-full shadow-lg w-28 h-28 lg:w-40 lg:h-40 lg:ml-6" src="https://i.ibb.co/VqZ4mch/saint-Indian-removebg-preview.png" alt="Icon Image">
+</div>
+
+
+    <a href="#piloguard"
+       class="px-6 py-3 font-bold text-white transition duration-300 ease-in-out transform shadow-lg bg-emerald-700 rounded-xl lg:text-lg lg:px-8 lg:py-4 hover:bg-emerald-800 hover:scale-105 animate-bounce">
+       Descubra Más
+    </a>
+  </div>
+
+  <!-- Imagen del producto -->
+  <img src="https://i.ibb.co/GWcmGDx/main-Piloguard.jpg" class="lg:w-2/3 lg:h-screen animate-fade-up" alt="Producto CIDNI">
+</article>
+
+
+<div id="piloguard" class="py-8"</div>
+        <section  class="space-y-20 overflow-hidden lg:mt-5">
           <CardInfoSm class=""
             img-center="https://images.pexels.com/photos/20419192/pexels-photo-20419192/free-photo-of-yellow-petals-on-spoon-by-book-on-desk.jpeg?auto=compress&cs=tinysrgb&w=600"
             :title="info1.title" :description="info1.content" :description2="info1.content2" />
