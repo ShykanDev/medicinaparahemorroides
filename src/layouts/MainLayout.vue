@@ -1,10 +1,13 @@
 <template>
-    <div class="selection:bg-white selection:text-emerald-700">
+    <div class="selection:bg-white selection:text-emerald-700 overflow-hidden">
         <header class="fixed left-0 right-0 z-50 flex flex-col text-white shadow-lg bg-emerald-700">
+            <img src="../assets/ssl-certificate.png"  class="absolute w-10 right-0 md:hidden -bottom-6" alt="">
             <!-- Navegación principal -->
             <nav class="flex items-center justify-between px-4 lg:px-8">
                 <!-- Logo -->
-                <img src="https://medicinaparaansiedad.com/img/logo.png" alt="Logo" class="w-12 lg:w-14" />
+                 
+                <img src="https://medicinaparaansiedad.com/img/logo.png" alt="Logo" class="w-11 md:w-12   lg:w-14" />
+                <p class="hidden text-xl font-semibold font-poppins animate-fade-down md:block">medicinaparahemorroides.com</p>
                 <!-- Links de navegación -->
                 <div class="flex gap-4 text-sm font-medium lg:text-lg lg:gap-6 font-sour-gummy">
                     <RouterLink :class="{ 'italic animate-jump-in': route.name === 'home' }" :to="{ name: 'home' }">
@@ -29,7 +32,8 @@
 
             <!-- Información de contacto -->
             <div
-                class="flex-col hidden gap-4 px-4 py-3 text-xs lg:flex lg:flex-row lg:items-center lg:justify-evenly lg:text-base bg-emerald-800">
+                class="flex-col relative hidden gap-4 px-4 py-3 text-xs lg:flex lg:flex-row lg:items-center lg:justify-evenly lg:text-base bg-emerald-800">
+                <img src="../assets/ssl-certificate.png"  class="absolute w-11 right-0" alt="">
                 <!-- Dirección -->
                 <div class="flex items-center gap-2">
                     <v-icon name="md-locationon" class="text-emerald-300" scale="1.5" />
